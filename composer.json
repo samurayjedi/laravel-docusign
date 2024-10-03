@@ -21,7 +21,7 @@
       "name": "samurayjedi"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
     "docusign/esign-client": "^6.19",
     "league/oauth2-client": "^2.7",
