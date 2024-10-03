@@ -2,7 +2,7 @@
   "name": "samurayjedi/laravel-docusign",
   "description": "Docusign laravel integration as middleware.",
   "type": "library",
-  "license": "gpl",
+  "license": "GPL-3.0-or-later",
   "autoload": {
     "psr-4": {
       "Samurayjedi\\LaravelDocusign\\": "src/"
