@@ -1,0 +1,32 @@
+{
+  "name": "samurayjedi/laravel-docusign",
+  "description": "Docusign laravel integration as middleware.",
+  "type": "library",
+  "license": "gpl",
+  "autoload": {
+    "psr-4": {
+      "Samurayjedi\\LaravelDocusign\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Samurayjedi\\LaravelDocusign\\ArtisanServiceProvider",
+        "Samurayjedi\\LaravelDocusign\\DocusignServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "samurayjedi"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "docusign/esign-client": "^6.19",
+    "league/oauth2-client": "^2.7",
+    "illuminate/console": "^11.6",
+    "illuminate/filesystem": "^11.6",
+    "illuminate/support": "^11.6"
+  }
+}
