@@ -27,15 +27,15 @@ class SetupCommand extends Command {
      */
     protected $config = <<<PIWI
 \n
-DS_CLIENT_ID=76e267c6-df01-4983-966c-626fd1ea6bdb
-DS_CLIENT_SECRET=5c6f7afa-a942-497e-a746-bfe08af2278d
+DS_CLIENT_ID=Your_integration_key
+DS_CLIENT_SECRET=Your_secret_key
 DS_AUTHORIZATION_SERVER=account-d.docusign.com
-DS_IMPERSONATED_USER_ID=9f66b424-2ff2-4e31-a393-fe7b5baec008
+DS_IMPERSONATED_USER_ID=Your_user_ID
 DS_PRIVATE_KEY_FILE=private_dev.key
 ALLOW_SILENT_AUTHENTICATION=true
-DS_BRAND_ID=fbccf8ab-c55a-4336-b9ad-d8ae7b42fd73
-ADMIN_NAMES=Krey_Rico,Jesus_Daboin
-ADMIN_EMAILS=kreyricodaboin@gmail.com,ultimateethelwolf@gmail.com
+DS_BRAND_ID=Your_brand_id
+ADMIN_NAMES=samurayjedi,kroqgar
+ADMIN_EMAILS=samurayjedi_example@gmail.com,kroqgar_example@gmail.com
 PIWI;
 
     /**
