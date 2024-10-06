@@ -81,7 +81,12 @@ PIWI;
             /** middleware file, if no exits, copy the init template */
             $middlewarePath = base_path('app/Http/Middleware/IsAllowedByDocuSign.php');
             if (!file_exists($middlewarePath)) {
-                copy(__DIR__.'/../../stubs/IsAllowedByDocuSign.php', $middlewarePath);
+                try {
+                    copy(__DIR__.'/../../stubs/IsAllowedByDocuSign.php', $middlewarePath);
+                } catch(\Exception $e) {
+                    throw new \Exception(__DIR__);
+                }
+                
                 $this->installMiddleware(
                     ['\App\Http\Middleware\IsAllowedByDocusign::class'],
                     'appendToGroup',
