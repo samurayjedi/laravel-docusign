@@ -1,1 +1,9 @@
-Working in it.......
+## About
+
+Its a package that i have create to make me easier integrate docusign throught my projects.
+
+## How to install
+
+```bash
+composer require samurayjedi/laravel-docusign
+```
