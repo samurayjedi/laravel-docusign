@@ -1,6 +1,6 @@
 ## About
 
-Its a package that i have create to make me easier integrate docusign throught my projects.
+Its a package that i have create to make me easier integrate docusign through my projects.
 
 ## How to install
 
