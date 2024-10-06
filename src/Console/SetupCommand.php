@@ -82,6 +82,7 @@ PIWI;
             $folder = 'app/Http/Middleware';
             $middlewarePath = base_path("$folder/IsAllowedByDocuSign.php");
             if (!file_exists($middlewarePath)) {
+                // if the folder not exists, create it
                 if (!file_exists($folder)) {
                     mkdir($folder, 0755);
                 }
