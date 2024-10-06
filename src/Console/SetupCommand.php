@@ -83,7 +83,7 @@ PIWI;
             $middlewarePath = base_path("$folder/IsAllowedByDocuSign.php");
             if (!file_exists($middlewarePath)) {
                 if (!file_exists($folder)) {
-                    mkdir("folder/" . $dirname, 0755);
+                    mkdir($folder, 0755);
                 }
                 copy(__DIR__.'/../../stubs/IsAllowedByDocuSign.php', $middlewarePath);
 
