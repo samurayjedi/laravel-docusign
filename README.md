@@ -67,3 +67,28 @@ to get each one, login to you docusign developer account and enter in 'App & Key
 <img src="https://github.com/samurayjedi/laravel-docusign/blob/main/how_to/how_to_get_in.png" alt="App & Keys">
 
 </div>
+
+DS_CLIENT_ID is found:
+
+<div align="center">
+
+<img src="https://github.com/samurayjedi/laravel-docusign/blob/main/how_to/ds_client_id.png" alt="App & Keys">
+
+</div>
+
+DS_IMPERSONATED_USER_ID is found:
+
+<div align="center">
+
+<img src="https://github.com/samurayjedi/laravel-docusign/blob/main/how_to/ds_impersonated_user_id.png" alt="App & Keys">
+
+</div>
+
+DS_BRAND_ID, required you to create a brand, got to Brands -> Add Brand, fill the form and when all its done, copy the brand id:
+
+<div align="center">
+
+<img src="https://github.com/samurayjedi/laravel-docusign/blob/main/how_to/get_brand.png" alt="App & Keys">
+
+</div>
+
