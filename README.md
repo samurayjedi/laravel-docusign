@@ -22,7 +22,7 @@ This create the middleware '~/app/Http/Middleware/IsAllowedByDocuSign.php', it r
 
 In addition, the command add to your '~/bootstrap/app.php' the following lines for register the previous middleware:
 
-```
+```php
 // ...
 ->withMiddleware(function (Middleware $middleware) {
     $middleware->appendToGroup('auth.docusign', [
@@ -38,7 +38,7 @@ Important note: the command finds '->withMiddleware(function (Middleware $middle
 
 Futhermore, the artisan command create '~/routes/docusign.php', it contains:
 
-```
+```php
 Route::middleware(['web', 'auth', 'auth.docusign'])->group(function () {
     
 });
