@@ -68,7 +68,49 @@ to get each one, login to you docusign developer account and enter in 'App & Key
 
 </div>
 
-DS_CLIENT_ID is found:
+create a app:
+
+<div align="center">
+
+<img src="https://github.com/samurayjedi/laravel-docusign/blob/main/how_to/create_app.png" alt="App & Keys">
+
+</div>
+
+DS_CLIENT_SECRET is found:
+
+<div align="center">
+
+<img src="https://github.com/samurayjedi/laravel-docusign/blob/main/how_to/secret.png" alt="App & Keys">
+
+</div>
+
+Create RSA keys pair:
+
+<div align="center">
+
+<img src="https://github.com/samurayjedi/laravel-docusign/blob/main/how_to/rsa1.png" alt="App & Keys">
+
+</div>
+
+And copy public and private key and put it into a file, put the private key file into '~/storage/docusign/', and change this line with the name of your file:
+
+```
+// ...
+DS_PRIVATE_KEY_FILE=private_dev.key
+// ...
+```
+
+For my app to work in local, I had to put all this uris, i don't remember well, but in production i believe i had to change 'localhost' with the domain:
+
+<div align="center">
+
+<img src="https://github.com/samurayjedi/laravel-docusign/blob/main/how_to/uris.png" alt="App & Keys">
+
+</div>
+
+Finally, save the changes.
+
+Still missing the DS_CLIENT_ID, it is found:
 
 <div align="center">
 
@@ -99,4 +141,6 @@ when all its done, copy the brand id:
 <img src="https://github.com/samurayjedi/laravel-docusign/blob/main/how_to/ds_brand_id.png" alt="App & Keys">
 
 </div>
+
+Its done, docusign its integrated to your app finally!!! (in theory :p)
 
