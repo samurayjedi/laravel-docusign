@@ -60,3 +60,10 @@ ADMIN_NAMES=samurayjedi,kroqgar
 ADMIN_EMAILS=samurayjedi_example@gmail.com,kroqgar_example@gmail.com
 ```
 
+to get each one, login to you docusign developer account and enter in 'App & Keys':
+
+<div align="center">
+
+<img src="https://github.com/samurayjedi/laravel-docusign/blob/main/how_to/how_to_get_in.png" alt="App & Keys">
+
+</div>
