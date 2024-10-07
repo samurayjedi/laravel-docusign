@@ -84,11 +84,19 @@ DS_IMPERSONATED_USER_ID is found:
 
 </div>
 
-DS_BRAND_ID, required you to create a brand, got to Brands -> Add Brand, fill the form and when all its done, copy the brand id:
+DS_BRAND_ID, required you to create a brand, got to Brands -> Add Brand and fill the form:
 
 <div align="center">
 
 <img src="https://github.com/samurayjedi/laravel-docusign/blob/main/how_to/get_brand.png" alt="App & Keys">
+
+</div>
+
+when all its done, copy the brand id:
+
+<div align="center">
+
+<img src="https://github.com/samurayjedi/laravel-docusign/blob/main/how_to/ds_brand_id.png" alt="App & Keys">
 
 </div>
 
