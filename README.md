@@ -126,7 +126,7 @@ DS_IMPERSONATED_USER_ID is found:
 
 </div>
 
-DS_BRAND_ID, required you to create a brand, got to Brands -> Add Brand and fill the form:
+DS_BRAND_ID, is required create a brand, got to Brands -> Add Brand and fill the form:
 
 <div align="center">
 
